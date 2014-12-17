@@ -1,0 +1,21 @@
+string[] sentences = new string[5];
+
+            for (int i = 0; i < sentences.Length; i++)
+            {
+                Console.Write("Enter your sentence :");
+                sentences[i]=Console.ReadLine();
+            }
+
+            Console.WriteLine("All sentences are written! ");
+            Console.WriteLine("Wait a second !!!");
+
+            Thread.Sleep(1000);
+            Console.Clear();
+
+            for (int i = 0; i < sentences.Length; i++)
+            {
+                Console.WriteLine(sentences[i]);
+            }
+
+
+            Console.ReadKey();
